@@ -1,0 +1,12 @@
+import java. util. Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Enter Input");
+        Scanner scan=new Scanner(System.in);
+        int x=scan.nextInt();
+        for(x=100;x<=1000;x=x+100)
+        {
+            System.out.println(x);
+        }
+    }
+}
