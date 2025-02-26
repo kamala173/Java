@@ -1,0 +1,31 @@
+Write a Program that takes input n and prints the below pattern and upload the code to your github repo.
+
+
+
+Sample 1:
+
+Input:
+
+n = 4
+
+Expected output:
+
+*
+
+**
+
+***
+
+****
+
+class Main {
+    public static void main(String[] args) {
+     int n=4;
+     for(int i=4;i>=1;i--){
+    for(int j=i;j<=4;j++){
+         System.out.print("*");
+     }
+     System.out.println();
+}
+}
+}

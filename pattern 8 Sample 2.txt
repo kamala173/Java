@@ -1,0 +1,29 @@
+Sample 2
+
+Input:
+
+n= 6
+
+*
+
+**
+
+***
+
+****
+
+*****
+
+******
+
+class Main {
+    public static void main(String[] args) {
+     int n=6;
+     for(int i=6;i>=1;i--){
+    for(int j=i;j<=6;j++){
+         System.out.print("*");
+     }
+     System.out.println();
+}
+}
+}
